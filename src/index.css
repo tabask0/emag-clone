@@ -1,5 +1,9 @@
-::-webkit-input-placeholder {
-	margin-left: 20px;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainframe {
+	width: 90%;
 }
 
 .bgradient {
@@ -53,4 +57,19 @@
 	margin-top: 10px;
 	color: #0082e6;
 	transform: scale(1.2);
+}
+
+.page-section {
+	margin-top: 450px;
+}
+
+.page-section-container {
+	width: 1185px;
+}
+.svg1 {
+	fill: #ff181e;
+}
+
+.svg2 {
+	fill: #9a9a9a;
 }

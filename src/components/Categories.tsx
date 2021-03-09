@@ -5,7 +5,7 @@ import React from 'react'
 const Categories = () => {
   return (
     <div className="w-full h-10 bgradient flex items-center justify-between my-6">
-      <div className="w-7xl flex items-center mx-44 my-10 text-white text-sm ">
+      <div className="w-7xl flex items-center mx-44 my-10 text-white text-sm pr-6">
         <div className="dropdown">
           <div className="flex items-center bg-white text-black p-1 px-2 border-b-10 rounded-t-md mb-0">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" className="flex w-4 h-4 mx-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
@@ -15,6 +15,13 @@ const Categories = () => {
         <div className="flex items-center">
         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="mobile-alt" className="w-5 h-5 text-gray-500 mx-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>
       <a href="/">Laptop, Tablete & Telefoane</a>
+      <div className="dropdown">
+            <div className="dropdown-content">
+      <div className="flex flex-col">
+            <a href="/">Laptopuri si accesorii</a>
+            </div>
+      </div>
+      </div>
       </div>
       <div className="flex items-center">
       <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="mouse" className="w-5 h-5 text-gray-500 mx-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M0 352a160 160 0 0 0 160 160h64a160 160 0 0 0 160-160V224H0zM176 0h-16A160 160 0 0 0 0 160v32h176zm48 0h-16v192h176v-32A160 160 0 0 0 224 0z"></path></svg>
